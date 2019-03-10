@@ -25,10 +25,10 @@ class Recipe extends Component{
                     <li className="collection-item">
                             <label>
                                 <input type="checkbox" ref="shipping" onChange= {this.handleChecked} />
-                                <span>Shipping(+6$) ,Obs! uncheck and Pickupp (+0$) </span>
+                                <span>Shipping(+6$) ,Obs! uncheck and pick up without post (+0$) </span>
                             </label>
                         </li>
-                        <li className="collection-item"><b>Total Item : {this.props.pc}pcs ___ Total cost: {this.props.total} $   - - -> <button className="waves-effect waves-light btn">Checkout</button> </b></li>
+                        <li className="collection-item"><b>Total Item : {this.props.pc}pcs ___ Total cost: {this.props.total} $    <button className="waves-effect waves-light btn ">Checkout</button> </b></li>
                     </div>
 					{/*   <div className="checkout">
                         <button className="waves-effect waves-light btn">Checkout</button>
